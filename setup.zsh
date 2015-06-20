@@ -3,6 +3,7 @@ DOTFILESDIR="$HOME/.dotfiles"
 function softlink {
   if [[ -L "$HOME/$1" || -s "$HOME/$1" ]]; then
     echo "$1 config file conflict"
+    exit
   else
     ln -s "$DOTFILESDIR/$1" "$HOME/$1"
   fi
