@@ -1,6 +1,5 @@
 ZDOTDIR="$HOME/.dotfiles/zsh"
 
-if [ -f "$ZDOTDIR/.zshenv" ]
-then
+if [[ -s "$ZDOTDIR/.zshenv" ]]; then
   source "$ZDOTDIR/.zshenv"
 fi
