@@ -1,7 +1,14 @@
 # soft link
 DOTFILESDIR="$HOME/.dotfiles"
-ln -s "$DOTFILESDIR/.iterm2" "$HOME/.iterm2"
-ln -s "$DOTFILESDIR/.zshenv" "$HOME/.zshenv"
+function softlink {
+  if [[ -L "$HOME/$1" || -s "$HOME/$1" ]]; then
+    echo "$1 config file conflict"
+  else
+    ln -s "$DOTFILESDIR/$1" "$HOME/$1"
+  fi
+}
+softlink ".iterm2"
+softlink ".zshenv"
 
 # setup zsh
 ZDOTDIR="$DOTFILESDIR/zsh"
