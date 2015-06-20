@@ -1,5 +1,8 @@
-# soft link
 DOTFILESDIR="$HOME/.dotfiles"
+# clone .dotfiles
+git clone https://github.com/countcain/.dotfiles.git "$DOTFILESDIR"
+
+# soft link
 function softlink {
   if [[ -L "$HOME/$1" || -s "$HOME/$1" ]]; then
     echo "$1 config file conflict"
