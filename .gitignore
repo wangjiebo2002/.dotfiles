@@ -6,3 +6,5 @@ zsh/.zlogin
 zsh/.zlogout
 zsh/.zprofile
 zsh/.zshenv
+
+nvm
