@@ -2,6 +2,7 @@ DOTFILESDIR="$HOME/.dotfiles"
 # clone .dotfiles
 git clone https://github.com/countcain/.dotfiles.git "$DOTFILESDIR"
 
+
 # soft link
 function softlink {
   if [[ -L "$HOME/$1" || -s "$HOME/$1" ]]; then
@@ -13,6 +14,12 @@ function softlink {
 softlink ".iterm2"
 softlink ".zshenv"
 
+
+# install powerline fonts (some theme depends on these fonts)
+git clone https://github.com/powerline/fonts.git "$DOTFILESDIR/powerline-fonts"
+sh "$DOTFILESDIR/powerline-fonts/install.sh"
+
+
 # setup zsh with prezto
 ZDOTDIR="$DOTFILESDIR/zsh"
 git clone --recursive https://github.com/countcain/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
@@ -20,6 +27,7 @@ setopt EXTENDED_GLOB
 for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
+
 
 # setup nvm
 NVM_DIR="$DOTFILESDIR/nvm"

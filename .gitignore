@@ -1,10 +1,16 @@
 zsh/.zcompdump
 zsh/.zcompdump.zwc
 zsh/.zhistory
-zsh/.zprezto
 zsh/.zlogin
 zsh/.zlogout
 zsh/.zprofile
 zsh/.zshenv
 
+# github repo
+zsh/.zprezto
+
+# github repo
 nvm
+
+# github repo
+powerline-fonts
