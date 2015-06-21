@@ -20,6 +20,33 @@ git clone https://github.com/powerline/fonts.git "$DOTFILESDIR/powerline-fonts"
 sh "$DOTFILESDIR/powerline-fonts/install.sh"
 
 
+# toggle iTerm Dock icon
+function toggleiTerm() {
+  local pb='/usr/libexec/PlistBuddy'
+  local iTerm='/Applications/iTerm.app/Contents/Info.plist'
+  echo "Do you wish to hide iTerm in Dock?"
+  select ync in "Hide" "Show" "Cancel"; do
+    case $ync in
+      'Hide' )
+         $pb -c "Add :LSUIElement bool true" $iTerm
+         echo "relaunch iTerm to take effectives"
+         break
+         ;;
+      'Show' )
+         $pb -c "Delete :LSUIElement" $iTerm
+         echo "run killall 'iTerm' to exit, and then relaunch it"
+         break
+         ;;
+      'Cancel' )
+         break
+         ;;
+    esac
+  done
+}
+toggleiTerm
+
+
+
 # setup zsh with prezto
 ZDOTDIR="$DOTFILESDIR/zsh"
 git clone --recursive https://github.com/countcain/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
