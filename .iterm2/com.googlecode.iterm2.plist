@@ -99,7 +99,7 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>918 329 445 365 0 0 1920 1057 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>439 273 924 485 0 0 1920 1057 </string>
+	<string>327 79 924 485 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>4 0 1916 1057 0 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_5301B123-EE19-4E21-9AC2-9B08E83C954E</key>
@@ -837,7 +837,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>456369048.21068197</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>456545310.97770399</real>
+	<real>456631712.08854699</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -900,7 +900,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-06-21T01:26:16Z</date>
+	<date>2015-06-23T01:47:19Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -941,7 +941,7 @@
 	<key>WindowStyle</key>
 	<integer>0</integer>
 	<key>WordCharacters</key>
-	<string>  </string>
+	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
 	<key>findRegex_iTerm</key>
