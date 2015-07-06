@@ -14,7 +14,7 @@ setupDotfiles "github.com/countcain/.dotfiles.git"
 git clone https://github.com/countcain/.dotfiles.git "$DOTFILESDIR"
 
 
-# soft links for .iterm2 and .zshenv
+# soft links for .iterm2, .zshenv, .sqliterc
 function softlink {
   if [[ -L "$HOME/$1" || -s "$HOME/$1" ]]; then
     echo "$1 config file exist, make sure it link to $DOTFILESDIR/$1"
@@ -26,6 +26,8 @@ setupDotfiles ".iterm2"
 softlink ".iterm2"
 setupDotfiles ".zshenv"
 softlink ".zshenv"
+setupDotfiles ".sqliterc"
+softlink ".sqliterc"
 
 
 # install powerline fonts (some theme depends on these fonts)
