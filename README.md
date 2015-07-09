@@ -14,10 +14,12 @@
 curl -o- https://raw.githubusercontent.com/countcain/.dotfiles/master/setup.zsh | zsh
 ```
 
-## Tools
+## Include
 
 > see zsh/.zshrc. After installation, these tools are in the .dotfiles dir, also accessible in the zsh shell. 
 
 1. zsh with [prezto](https://github.com/countcain/prezto)
 2. configuration file for [iTerm 2](https://github.com/countcain/Cain/wiki/iTerm-2)
 3. [nvm](https://github.com/creationix/nvm)
+4. sqlite3
+5. git config
