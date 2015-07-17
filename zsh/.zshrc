@@ -17,6 +17,7 @@ DOTFILESDIR="$HOME/.dotfiles"
 
 # common update
 alias ...=cd ../../
+alias imgcat="$DOTFILESDIR/scripts/imgcat"
 
 # node version manager
 export NVM_DIR="$DOTFILESDIR/nvm"
