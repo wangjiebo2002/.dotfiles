@@ -1,8 +1,8 @@
 DOTFILESDIR="$HOME/.dotfiles"
 
 function setupDotfiles(){
-echo "\n"
-echo -e "\033[45;33m SETUP $1 \033[0m"
+  echo "\n"
+  echo -e "\033[45;33m SETUP $1 \033[0m"
 }
 function questionEcho(){
 echo -e "\033[41;33m $1 \033[0m"
@@ -90,3 +90,8 @@ done
 setupDotfiles "node version manager"
 NVM_DIR="$DOTFILESDIR/nvm"
 git clone https://github.com/creationix/nvm.git "$NVM_DIR" && cd "$NVM_DIR" && git checkout `git describe --abbrev=0 --tags`
+
+
+#setup vim
+setupDotfiles "Vim"
+softlink ".vimrc"
