@@ -45,7 +45,7 @@
 	<key>FocusFollowsMouse</key>
 	<false/>
 	<key>FsTabDelay</key>
-	<real>1</real>
+	<real>0.10000000000000001</real>
 	<key>HiddenAFRStrokeThickness</key>
 	<real>0.0</real>
 	<key>HiddenAdvancedFontRendering</key>
@@ -121,9 +121,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1508 334 716 447 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 222 606 456 0 0 2560 1417 </string>
+	<string>269 970 606 456 0 0 2560 1440 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>934 786 620 392 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 4 2560 1413 0 0 2560 1417 </string>
+	<string>0 0 2560 1440 0 0 2560 1417 </string>
 	<key>NeverWarnAboutShortLivedSessions_5301B123-EE19-4E21-9AC2-9B08E83C954E</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -305,7 +307,7 @@
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
-			<real>7.7263312339782715</real>
+			<real>3.9252495032090411</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -685,9 +687,9 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>130</integer>
+			<integer>100</integer>
 			<key>Screen</key>
-			<integer>0</integer>
+			<integer>-2</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Scrollback With Status Bar</key>
@@ -823,7 +825,7 @@
 				</dict>
 			</array>
 			<key>Space</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -831,7 +833,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.30887573957443237</real>
+			<real>0.36805889416023119</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
@@ -849,13 +851,33 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>Working Directory</key>
 			<string>/Users/Cain</string>
 		</dict>
 	</array>
 	<key>NoSyncLastTipTime</key>
-	<real>460177078.22566497</real>
+	<real>462640050.00867301</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -920,7 +942,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-08-01T03:11:01Z</date>
+	<date>2015-08-30T15:07:29Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -969,6 +991,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20150731-nightly</string>
+	<string>2.9.20150826-nightly</string>
 </dict>
 </plist>
