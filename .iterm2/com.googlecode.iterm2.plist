@@ -122,8 +122,10 @@
 	<string>1508 334 716 447 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>269 970 606 456 0 0 2560 1440 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>765 856 400 129 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>934 786 620 392 0 0 2560 1440 </string>
+	<string>935 786 620 392 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 2560 1440 0 0 2560 1417 </string>
 	<key>NeverWarnAboutShortLivedSessions_5301B123-EE19-4E21-9AC2-9B08E83C954E</key>
@@ -825,7 +827,7 @@
 				</dict>
 			</array>
 			<key>Space</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -857,7 +859,7 @@
 		</dict>
 	</array>
 	<key>NoSyncLastTipTime</key>
-	<real>462640050.00867301</real>
+	<real>463684627.33688498</real>
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
@@ -877,6 +879,13 @@
 		<string>0013</string>
 		<string>0014</string>
 		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
+		<string>0021</string>
+		<string>0022</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -942,7 +951,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-08-30T15:07:29Z</date>
+	<date>2015-09-11T16:28:31Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -991,6 +1000,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20150826-nightly</string>
+	<string>2.9.20150911-nightly</string>
 </dict>
 </plist>

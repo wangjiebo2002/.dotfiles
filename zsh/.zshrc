@@ -22,7 +22,6 @@ alias linode="ssh cain@cainhuang.com"
 # node version manager
 export NVM_DIR="$DOTFILESDIR/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-alias node='node --harmony'
 
 # sets the tab title to current dir
 precmd() {
