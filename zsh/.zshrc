@@ -17,7 +17,10 @@ DOTFILESDIR="$HOME/.dotfiles"
 alias ...=cd ../../
 alias imgcat="$DOTFILESDIR/scripts/imgcat"
 alias mongod="sudo mongod --dbpath /Volumes/Engineering/Mongodb_Data"
-alias linode="ssh cain@cainhuang.com"
+
+# server
+alias linode="ssh countcain@cainhuang.com"
+alias dafa="ssh cainh@5.189.139.222"
 
 # node version manager
 export NVM_DIR="$DOTFILESDIR/nvm"
@@ -31,3 +34,7 @@ precmd() {
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# jenv
+export PATH="$DOTFILESDIR/jenv/bin:$PATH"
+eval "$(jenv init -)"

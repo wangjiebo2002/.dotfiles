@@ -8,11 +8,8 @@ zsh/.zshenv
 
 # github repo
 zsh/.zprezto
-
-# github repo
 nvm
-
-# github repo
 powerline-fonts
+jenv
 
 .DS_Store

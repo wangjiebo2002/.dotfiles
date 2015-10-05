@@ -91,6 +91,9 @@ setupDotfiles "node version manager"
 NVM_DIR="$DOTFILESDIR/nvm"
 git clone https://github.com/creationix/nvm.git "$NVM_DIR" && cd "$NVM_DIR" && git checkout `git describe --abbrev=0 --tags`
 
+# setup jenv
+setupDotfiles "java env manager"
+git clone https://github.com/gcuisinier/jenv.git "$DOTFILESDIR/jenv"
 
 #setup vim
 setupDotfiles "Vim"
