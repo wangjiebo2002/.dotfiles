@@ -20,7 +20,7 @@ alias mongod="sudo mongod --dbpath /Volumes/Engineering/Mongodb_Data"
 
 # server
 alias linode="ssh countcain@cainhuang.com"
-alias dafa="ssh cainh@5.189.139.222"
+alias dafa="ssh -L 9080:localhost:9090 cainh@5.189.139.222"
 
 # node version manager
 export NVM_DIR="$DOTFILESDIR/nvm"
