@@ -71,7 +71,7 @@
 	<key>HotkeyCode</key>
 	<integer>49</integer>
 	<key>HotkeyModifiers</key>
-	<integer>524288</integer>
+	<integer>1048840</integer>
 	<key>IRMemory</key>
 	<integer>4</integer>
 	<key>JobName</key>
@@ -121,11 +121,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1508 334 716 447 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 970 606 456 0 0 2560 1440 </string>
+	<string>267 970 606 456 0 0 2560 1440 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>765 856 400 129 0 0 2560 1417 </string>
+	<string>413 968 400 129 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>935 786 620 392 0 0 2560 1440 </string>
+	<string>970 769 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 2560 1440 0 0 2560 1417 </string>
 	<key>NeverWarnAboutShortLivedSessions_5301B123-EE19-4E21-9AC2-9B08E83C954E</key>
@@ -859,7 +859,11 @@
 		</dict>
 	</array>
 	<key>NoSyncLastTipTime</key>
-	<real>463684627.33688498</real>
+	<real>466533446.91374201</real>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>464703537.10946399</real>
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
@@ -886,6 +890,28 @@
 		<string>0020</string>
 		<string>0021</string>
 		<string>0022</string>
+		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
+		<string>0033</string>
+		<string>0034</string>
+		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
+		<string>0038</string>
+		<string>0039</string>
+		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -951,7 +977,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-09-11T16:28:31Z</date>
+	<date>2015-10-15T03:12:23Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -1000,6 +1026,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20150911-nightly</string>
+	<string>2.9.20151006-nightly</string>
 </dict>
 </plist>
