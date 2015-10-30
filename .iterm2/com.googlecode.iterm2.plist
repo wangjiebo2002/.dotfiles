@@ -121,7 +121,7 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1508 334 716 447 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>267 970 606 456 0 0 2560 1440 </string>
+	<string>-1155 963 606 456 -1200 -480 1200 1920 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>413 968 400 129 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
@@ -691,7 +691,7 @@
 			<key>Rows</key>
 			<integer>100</integer>
 			<key>Screen</key>
-			<integer>-2</integer>
+			<integer>1</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Scrollback With Status Bar</key>
