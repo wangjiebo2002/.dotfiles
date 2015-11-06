@@ -19,7 +19,9 @@ alias imgcat="$DOTFILESDIR/scripts/imgcat"
 
 # server
 alias linode="ssh countcain@cainhuang.com"
-alias dafa="ssh -L 9080:localhost:9090 cainh@5.189.139.222"
+alias faserver="ssh -L 9080:localhost:9090 cainh@5.189.139.222"
+alias maddev="ssh maddev@maxit.ca"
+alias madpro="sudo ssh -i ~/MadShare/MadShareKeyPair.pem ubuntu@54.149.88.7"
 
 # node version manager
 export NVM_DIR="$DOTFILESDIR/nvm"
